@@ -1,0 +1,16 @@
+{
+  "name": "eval-studio",
+  "version": "1.0.0",
+  "description": "Full-Stack Playground & Evaluation Dashboard for Code Generation Benchmarks",
+  "author": "shreyasconnect <patilshreyas1803@gmail.com>",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "server": "node server/src/server.js",
+    "test": "node --test server/tests/api.test.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "cors": "^2.8.5"
+  }
+}
