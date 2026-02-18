@@ -1,0 +1,14 @@
+{
+  "name": "eval-studio-server",
+  "version": "1.0.0",
+  "description": "Express REST API backend for EvalStudio code task benchmark runner",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test tests/api.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
